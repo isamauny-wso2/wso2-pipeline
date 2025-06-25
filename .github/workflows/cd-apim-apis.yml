@@ -15,7 +15,7 @@ permissions:
 jobs:
   deploy_apim_api:
     name: Deploy APIM API
-    uses: wso2-cicd/wso2-workflows/.github/workflows/cd-apim-apis.yml@main
+    uses: isamauny-wso2/wso2-workflows/.github/workflows/cd-apim-apis.yml@main
     with:
       sourceBranch: dev
       destinationBranch: qa
