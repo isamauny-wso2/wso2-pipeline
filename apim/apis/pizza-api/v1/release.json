@@ -1,0 +1,12 @@
+{
+  "artifactRepository": "isamauny-wso2/pizza-api",
+  "releaseVersion": "r3",
+  "artifacts": [
+    "pizza-api.zip"
+  ],
+  "pullRequest": {
+    "url": "https://github.com/isamauny-wso2/pizza-api/pull/1",
+    "title": "Updates for v1 deployment",
+    "mergedAt": "2025-06-25T09:52:36Z"
+  }
+}
