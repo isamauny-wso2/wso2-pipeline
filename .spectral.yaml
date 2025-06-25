@@ -1,0 +1,4 @@
+extends: 
+  - "spectral:oas"                  # Built-in OpenAPI ruleset
+  - "linters/adidas.yaml"           # Local ruleset file
+  - "linters/owasp_top10.yaml"      # Local ruleset file

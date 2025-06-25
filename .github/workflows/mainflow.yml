@@ -1,0 +1,28 @@
+# Automated Linting 
+
+name: "main-workflow"
+
+# follow standard triggers
+on: 
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  checks: write
+
+jobs:
+  run_linter:
+    runs-on: apim-cicd
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
+      - name: Run OpenAPI Linter
+        uses: stoplightio/spectral-action@latest
+        with:
+          file_glob: "OASFiles/*.json"
+      # - name: save-linting-report
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: linting-report-${{ github.run_id }}
+      #     path: linting-report-${{ github.run_id }}.json
+      #     if-no-files-found: error
