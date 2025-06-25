@@ -26,5 +26,3 @@ jobs:
       ghBotPat: ${{ secrets.WSO2_GIT_BOT_PAT }}
       ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
       ghBotEmail: ${{ secrets.WSO2_GIT_BOT_EMAIL }}
-      apimAdminUsername: ${{ secrets.WSO2_APIM_DEV_ADMIN_USERNAME }}
-      apimAdminPassword: ${{ secrets.WSO2_APIM_DEV_ADMIN_PASSWORD }}
