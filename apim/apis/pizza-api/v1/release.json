@@ -1,12 +1,12 @@
 {
   "artifactRepository": "isamauny-wso2/pizza-api",
-  "releaseVersion": "r4",
+  "releaseVersion": "r5",
   "artifacts": [
     "pizza-api.zip"
   ],
   "pullRequest": {
-    "url": "https://github.com/isamauny-wso2/pizza-api/pull/2",
-    "title": "Change Contact",
-    "mergedAt": "2025-06-25T10:56:36Z"
+    "url": "https://github.com/isamauny-wso2/pizza-api/pull/3",
+    "title": "Fix formatting",
+    "mergedAt": "2025-06-25T11:32:06Z"
   }
 }
