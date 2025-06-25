@@ -15,7 +15,7 @@ permissions:
 jobs:
   deploy_apim_api:
     name: Deploy APIM API
-    uses: wso2-cicd/wso2-workflows/.github/workflows/cd-apim-apis.yml@main
+    uses: isamauny-wso2/wso2-workflows/.github/workflows/cd-apim-apis.yml@main
     with:
       sourceBranch: qa
       destinationBranch: uat
@@ -26,5 +26,3 @@ jobs:
       ghBotPat: ${{ secrets.WSO2_GIT_BOT_PAT }}
       ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
       ghBotEmail: ${{ secrets.WSO2_GIT_BOT_EMAIL }}
-      apimAdminUsername: ${{ secrets.WSO2_APIM_QA_ADMIN_USERNAME }}
-      apimAdminPassword: ${{ secrets.WSO2_APIM_QA_ADMIN_PASSWORD }}
