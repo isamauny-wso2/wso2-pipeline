@@ -15,7 +15,7 @@ permissions:
 jobs:
   deploy_apim_policies:
     name: Deploy APIM Policies
-    uses: wso2-cicd/wso2-workflows/.github/workflows/cd-apim-rate-limiting-policies.yml@main
+    uses: isamauny-wso2/wso2-workflows/.github/workflows/cd-apim-rate-limiting-policies.yml@main
     with:
       sourceBranch: dev
       destinationBranch: qa
@@ -26,5 +26,3 @@ jobs:
       ghBotPat: ${{ secrets.WSO2_GIT_BOT_PAT }}
       ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
       ghBotEmail: ${{ secrets.WSO2_GIT_BOT_EMAIL }}
-      apimAdminUsername: ${{ secrets.WSO2_APIM_DEV_ADMIN_USERNAME }}
-      apimAdminPassword: ${{ secrets.WSO2_APIM_DEV_ADMIN_PASSWORD }}
