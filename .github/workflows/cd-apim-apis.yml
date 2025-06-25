@@ -18,9 +18,9 @@ jobs:
     uses: isamauny-wso2/wso2-workflows/.github/workflows/cd-apim-apis.yml@main
     with:
       sourceBranch: dev
-      destinationBranch: qa
+      destinationBranch: uat
       sourceEnv: dev
-      destinationEnv: qa
+      destinationEnv: uat
       apiCtlEnv: dev
     secrets:
       ghBotPat: ${{ secrets.WSO2_GIT_BOT_PAT }}
