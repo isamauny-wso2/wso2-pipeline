@@ -1,0 +1,12 @@
+{
+  "artifactRepository": "isamauny-wso2/pizza-api",
+  "releaseVersion": "r5",
+  "artifacts": [
+    "pizza-api.zip"
+  ],
+  "pullRequest": {
+    "url": "https://github.com/isamauny-wso2/pizza-api/pull/3",
+    "title": "Fix formatting",
+    "mergedAt": "2025-06-25T11:32:06Z"
+  }
+}
