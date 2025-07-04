@@ -27,5 +27,5 @@ jobs:
         secrets:
             ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
             ghBotEmail: ${{ secrets.WSO2_GIT_BOT_EMAIL }}
-
+            ghBotPat: ${{ secrets.WSO2_GIT_BOT_PAT }}
 
