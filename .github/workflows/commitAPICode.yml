@@ -17,7 +17,6 @@ permissions:
   contents: read
 
 
-
 jobs:
     commit-new-version:
         name: commit new API version
@@ -25,5 +24,8 @@ jobs:
         with:
             apiName: ${{ inputs.apiName }}
             apiVersion: ${{ inputs.apiVersion }}
+        secrets:
+            ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
+            ghBotEmail: ${{ secrets.WSO2_GIT_BOT_EMAIL }}
 
 
