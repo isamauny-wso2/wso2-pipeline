@@ -1,0 +1,29 @@
+name: CD - APIM-APIs
+
+on:
+  workflow_dispatch:
+    inputs:
+        apiName:
+            type: string
+            description: API Name
+            required: true
+        apiVersion:
+            type: string
+            description: API Version
+            required: true
+
+permissions:
+  id-token: write
+  contents: read
+
+
+
+jobs:
+    commit-new-version:
+        name: commit new API version
+        uses: isamauny-wso2/wso2-workflows/.github/workflows/commitAPICode.yml@main
+        with:
+            apiName: ${{ inputs.apiName }}
+            apiVersion: ${{ inputs.apiVersion }}
+
+
