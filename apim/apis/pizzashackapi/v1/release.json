@@ -1,0 +1,12 @@
+{
+  "artifactRepository": "isamauny-wso2/pizzashackapi",
+  "releaseVersion": "r11",
+  "artifacts": [
+    "pizzashackapi.zip"
+  ],
+  "pullRequest": {
+    "url": "",
+    "title": "",
+    "mergedAt": ""
+  }
+}
