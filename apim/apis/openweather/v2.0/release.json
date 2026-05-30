@@ -1,0 +1,12 @@
+{
+  "artifactRepository": "apiscoach/openweather",
+  "releaseVersion": "r8",
+  "artifacts": [
+    "OpenWeather_2.0.zip"
+  ],
+  "pullRequest": {
+    "url": "",
+    "title": "",
+    "mergedAt": ""
+  }
+}
