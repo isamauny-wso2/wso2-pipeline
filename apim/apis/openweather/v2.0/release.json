@@ -1,6 +1,6 @@
 {
   "artifactRepository": "apiscoach/openweather",
-  "releaseVersion": "r11",
+  "releaseVersion": "r12",
   "artifacts": [
     "OpenWeather_2.0.zip"
   ],
